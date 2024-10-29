@@ -1,0 +1,9 @@
+[INÍCIO]
+    [inteiro]:A,B,R;
+    [imprimir]("Digite um número:");
+    [ler](A);
+    [imprimir]("Digite outro número:");
+    [ler](B);
+    R <- (A + B) * A;
+    [imprimir]("O resultado é ",R);
+[FIM]

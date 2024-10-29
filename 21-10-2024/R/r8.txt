@@ -1,0 +1,9 @@
+[INÍCIO]
+    [inteiro]:H,M,MT;
+    [imprimir]("Insira as horas atuais, sem os minutos:");
+    [ler](H);
+    [imprimir]("Agora insira os minutos atuais:");
+    [ler](M);
+    MT <- M + (H * 60);
+    [imprimir]("O total de minutos desde o início do dia é ",MT);
+[FIM]

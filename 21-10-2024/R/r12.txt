@@ -1,0 +1,7 @@
+[INÍCIO]
+    [inteiro]:H,R,T;
+    [imprimir]("Insira a quantidade de hectares do sítio:");
+    [ler](H);
+    V <- 0.6 * (H * 150000);
+    [imprimir]("Um sítio de ",H," hectares arrecada R$",V," em cana de açúcar, desprezando o custo de produção.");
+[FIM]

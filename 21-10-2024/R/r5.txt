@@ -1,0 +1,13 @@
+[INÍCIO]
+    [real]:AV1,AV2,AV3,AV4,M;
+    [imprimir]("Insira a nota da primeira avaliação:");
+    [ler](AV1);
+    [imprimir]("Insira a nota da segunda avaliação:");
+    [ler](AV2);
+    [imprimir]("Insira a nota da terceira avaliação:");
+    [ler](AV3);
+    [imprimir]("Insira a nota da quarta avaliação:");
+    [ler](AV4);
+    M <- (AV1 + AV2 + AV3 + AV4) / 4;
+    [imprimir]("A média do(a) aluno(a) é ",M);
+[FIM]

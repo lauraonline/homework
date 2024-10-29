@@ -1,0 +1,18 @@
+[INÍCIO]
+    [inteiro]:HE,ME,HS,MS,MTE,MTS,HT,MT;
+    [imprimir]("Digite as horas de entrada (sem os minutos):");
+    [ler](HE);
+    [imprimir]("Agora digite os minutos:");
+    [ler](ME);
+    [imprimir]("Digite as horas de saída (sem os minutos):);
+    [ler](HS);
+    [imprimir]("Agora digite os minutos de saída:")
+    [ler](MS);
+    MTE <- HE * 60 + ME;
+    MTS <- HS * 60 + MS;
+    HT <- (MTS - MTE) [div] 60;
+    MT <- (MTS - MTE) [mod] 60;
+    [imprimir]("O tempo total de trabalho é ",HT":",MT);
+[FIM]
+
+nota: como fazer se o horário de entrada > horário de saída?

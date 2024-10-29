@@ -1,0 +1,56 @@
+Sequência de operações para Somar 2 números:
+a) Entrar com o primeiro valor (A);
+b) Entrar com o segundo valor (B);
+c) Realizar a operação matemática:
+R  A + B
+d) Apresentar o resultado da operação (R)
+
+INÍCIO
+ inteiro:A,B,R;
+ imprimir("Digite um número:");
+ ler(A);
+ imprimir("Digite outro número:");
+ ler(B);
+ R<--A+B;
+ imprimir("A soma entre",A," e ",B," é igual a ",R);
+FIM.
+
+FAZER UM ALGORITMO PARA FAZER A CONVERSÃO DE CERTO VALOR EM DÓLAR PARA REAL.
+
+INÍCIO
+ real: DOLAR,COTA,R;
+ imprimir("Informe o valor em dólar a ser convertido:");
+ ler(DOLAR);
+ imprimir("Informe o valor da cotação do dia:");
+ ler(COTA);
+ R<-DOLAR*COTA;
+ imprimir("U$",DOLAR," equivale a R$",R," reais");
+FIM.
+
+FAZER UM ALGORITMO PARA LER UM NÚMERO INTEIRO DE 4 DÍGITOS E INVERTER O NÚMERO
+
+INÍCIO
+ inteiro:N,N1,N2,N3,N4;
+ imprimir("Digite um número de 4 dígitos:");
+ ler(N);
+ N1<--N div 1000;
+ N2<-- (N mod 1000)div 100;
+ N3<-- (N div 10) mod 10;
+ N4<-- N mod 10;
+ imprimir("Número invertido:",N4,N3,N2,N1);
+FIM.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

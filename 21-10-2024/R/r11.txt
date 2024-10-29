@@ -1,0 +1,7 @@
+[INÍCIO]
+    [inteiro]:H,T;
+    [imprimir]("Insira a quantidade de hectares do sítio:");
+    [ler](H);
+    T <- H * 150;
+    [imprimir]("Um sítio de ",H," hectares produz ",T," toneladas de cana de açúcar");
+[FIM]

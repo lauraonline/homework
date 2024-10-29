@@ -1,0 +1,9 @@
+[INÍCIO]
+    [real]:V,T,VT;
+    [imprimir]("Insira o valor sem juros:");
+    [ler](V);
+    [imprimir]("Insira a taxa de juros, sem o símbolo %:");
+    [ler](T);
+    VT <- V * (1 + T / 100);
+    [imprimir]("O valor total é ",VT);
+[FIM]

@@ -1,0 +1,7 @@
+[INÍCIO]
+    [real]:C,F;
+    [imprimir]("Insira uma temperatura em °F:");
+    [ler](F);
+    C <- N / 9 * (F - 32);
+    [imprimir](F,"°F é igual a ",C,"°C");
+[FIM]

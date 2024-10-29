@@ -1,0 +1,9 @@
+[INÍCIO]
+    [real]:BRL,USD,COT;
+    [imprimir]("Insira um valor em dólar:");
+    [ler](USD);
+    [imprimir]("Insira a cotação atual do dólar em real:");
+    [ler](COT);
+    BRL <- USD * COT;
+    [imprimir]("O valor de ",USD," em real é ",BRL);
+[FIM]

@@ -1,0 +1,10 @@
+[INÍCIO]
+    [inteiro]:N,A,B,C,D;
+    [imprimir]("Digite um número de quatro dígitos:");
+    [ler](N);
+    A <- N [div] 1000;
+    B <- (N [div] 100) [mod] 10;
+    C <- (N [div] 10) mod 10;
+    D <- N [mod] 10;
+    [imprimir](N," invertido é ",D,B,C,A);
+[FIM]

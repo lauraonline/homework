@@ -1,0 +1,16 @@
+[INÍCIO]
+    [inteiro]:A,B,S,D,P;
+    [real]:D;
+    [imprimir]("Insira um número:");
+    [ler](A);
+    [imprimir]("Insira outro número:");
+    [ler](B);
+    S <- A + B;
+    D <- A - B;
+    P <- A * B;
+    D <- A / B;
+    [imprimir]("A soma de ",A," e ",B," é ",S);
+    [imprimir]("A diferença entre ",A," e ",B," é ",S);
+    [imprimir]("O produto de ",A," e ",B," é ",P);
+    [imprimir]("A divisão de ",A," e ",B," é ",D);
+[FIM]

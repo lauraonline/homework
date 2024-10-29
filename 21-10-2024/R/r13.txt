@@ -1,0 +1,12 @@
+[INÍCIO]
+    [inteiro]:C;
+    [real]:D,T,V;
+    [imprimir]("Insira a distância percorrida (em Km):");
+    [ler](D);
+    [imprimir]("Insira a velocidade média (em Km/h):");
+    [ler](V);
+    T <- D / V;
+    C <- D * 11;
+    [imprimir]("O tempo aproximado de viagem é ",T," horas");
+    [imprimir]("O consumo de combustível é de ",C," litros");
+[FIM]

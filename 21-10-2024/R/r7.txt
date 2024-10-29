@@ -1,0 +1,9 @@
+[INÍCIO]
+    [inteiro]:A,B,C;
+    [imprimir]:("Insira um número inteiro:");
+    [ler](B);
+    A <- B - 1;
+    C <- B + 1;
+    [imprimir]("O antecessor de ",B," é ",A);
+    [imprimir]("O sucessor de ",B," é ",C);
+[FIM]

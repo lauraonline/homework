@@ -1,0 +1,7 @@
+[INÍCIO]
+    [inteiro]:AB,A;
+    [imprimir]("Insira um número inteiro:");
+    [ler](AB);
+    A <- AB [mod] 10;
+    [imprimir]("O último algarismo de ",AB," é ",A);
+[FIM]
