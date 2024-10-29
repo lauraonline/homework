@@ -1,0 +1,10 @@
+[INÍCIO]
+    [inteiro]:N,N1,N2,N3,C;
+    [imprimir]("Digite um número de 3 algarismos:");
+    [ler](N);
+    N1 <- N div 100;
+    N2 <- (N1 mod 100) div 10;
+    N3 <- N mod 10;
+    C <- [(N1 + N2) * 3 + N3 * 5] / 7;
+    [imprimir]("O seu número é ",N1,N2,N3,C);
+[FIM]
