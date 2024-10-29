@@ -1,0 +1,9 @@
+[INÍCIO]
+    [real]:B,H,A;
+    [imprimir]("Insira a base do triângulo:");
+    [ler](B);
+    [imprimir]("Insira a altura do triângulo:");
+    [ler](H);
+    A <- (B * H) / 2;
+    [imprimir]("O valor da área é ",A);
+[FIM]

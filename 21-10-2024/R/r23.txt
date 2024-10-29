@@ -1,0 +1,7 @@
+[INÍCIO]
+    [inteiro]:R,V;
+    [imprimir]("Insira o valor do raio da esfera:");
+    [ler](R);
+    V <- 4/3 * 3.1416 * (R ** 3);
+    [imprimir]("O volume da esfera é ",V);
+[FIM]
