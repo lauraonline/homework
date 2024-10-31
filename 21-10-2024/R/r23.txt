@@ -3,10 +3,10 @@
     [imprimir]("Insira o valor do raio da esfera:");
     [ler](R);
     [Se](R > 0);
-        [então];
+        [então]
             V <- 4/3 * 3.1416 * (R ** 3);
             [imprimir]("O volume da esfera é ",V);
-        [senão];
+        [senão]
             [imprimir]("Entrada inválida");
     [fim se];
 [FIM]
