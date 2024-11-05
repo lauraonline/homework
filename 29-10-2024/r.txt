@@ -3,4 +3,24 @@ Laura Alves 202407905454
 1.
 - Memória principal: Responsável por armazenar os dados de acesso rápido, e de menor capacidade. Não armazena dados enquanto o sistema está desligado.
 - Memória secundária: Responsável por armazenar os dados persistentes, isto é, que permanecerão mesmo após o desligamento do sistema.
-- Unidade central de processamento: O "cérebro" do sistema, é responsável por interagir com a memória principal para obter e processar instruções referentes ao 
+- Unidade central de processamento: O "cérebro" do sistema, é responsável por interagir com a memória principal para obter e processar instruções referentes a algum programa em execução.
+- Dispositivo de entrada: Usado pelo usuário para inserir informações no sistema ou de outra forma controlá-lo.
+- Dispositivo de saída: O método usado pelo sistema para transmitir informações ao usuário.
+2.
+Sistemas embarcados: São os implementados em equipamentos maiores, geralmente servindo um papel auxiliar ao equipamento principal (por exemplo, uma geladeira, carro, teclado, lâmpada inteligente, etc.). 
+Sistemas desktop: São usados em contextos individuais, de forma doméstica, laboratórios acadêmicos ou em escritórios de trabalho.
+Servidores: São sistemas de larga escala, com vários de cada um dos componentes computacionais, usados para tarefas difíceis demais pra sistemas convencionais.
+3.
+Cliente-servidor: O servidor hospeda a aplicação ou serviço, enquanto o cliente acessa o material hospedado de forma local ou remota. Desta maneira, o servidor acaba fazendo a maioria do trabalho.
+Distribuída: Uma rede local ou remota de computadores que realizam o hospedamento e o acesso da aplicação/serviço entre si, aproveitando o poder de processamento conjunto de todos os sistemas participantes.
+4.
+Vantagens:
+- Mais usos pro equipamento: Um sistema embarcado pode fazer com que o equipamento seja mais útil, adicionando recursos e expandindo o uso do equipamento.
+- Eficiência: Sistemas embarcados tem o potencial de consumir menos energia do que equipamentos analógicos e podem ser continuamente otimizados para tal.
+- Durabilidade: Com menos partes mecânicas, um sistema embarcado pode ser mais duradouro e ainda funcionar em ambientes extremos.
+Desvantagens:
+- Custo: O custo de engenharia, design e implantação de sistemas embarcados pode ser caro.
+- Limitações: Um sistema embarcado naturalmente tem restrições de espaço e isso diretamente limita o seu poder de processamento.
+5.
+Desktop: Ambientes domésticos, escritórios de advocacia, informática, design, etc., computadores gamer, laboratórios acadêmicos, caixas de lojas.
+Servidor: Servidores de bancos de dados, hospedagem de websites, processamento de IA, sistemas de pareamento e hospedagem de jogos eletrônicos.
