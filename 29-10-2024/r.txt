@@ -1,0 +1,6 @@
+Laura Alves 202407905454
+
+1.
+- Memória principal: Responsável por armazenar os dados de acesso rápido, e de menor capacidade. Não armazena dados enquanto o sistema está desligado.
+- Memória secundária: Responsável por armazenar os dados persistentes, isto é, que permanecerão mesmo após o desligamento do sistema.
+- Unidade central de processamento: O "cérebro" do sistema, é responsável por interagir com a memória principal para obter e processar instruções referentes ao 
