@@ -1,0 +1,4 @@
+array with size and value input
+1. sum of all values
+2. sum and average of all values
+3. sum, average and highest/lowest value out of all values
