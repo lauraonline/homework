@@ -17,12 +17,15 @@ main() {
         cout<<"O número deve ser maior que 0!"<<endl<<"Insira o número de colunas da matriz:";
         cin>>tj;
     }
-    float M[ti][tj], s=0;
+    float M[ti][tj], s=0, sl=0;
     for (i=0;i<=ti-1;i++) {
         for (j=0;j<=tj-1;j++) {
             cout<<"["<<i<<"]["<<j<<"]: ";
             cin>>(M[i][j]);
             s = s + M[i][j]; 
+            if (i == ti-1) {
+                sl = sl + M[i][j];
+            }
         }
     }
     cout<<"Matriz final:";
@@ -35,5 +38,6 @@ main() {
     cout<<endl;
     cout<<"Soma da matriz: "<<s<<endl;
     cout<<"Média da matriz: "<<s/(ti*tj)<<endl;
+    cout<<"Soma da última linha: "<<sl<<endl;
     system("Pause");
 }
