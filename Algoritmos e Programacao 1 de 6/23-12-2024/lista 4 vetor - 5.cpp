@@ -5,29 +5,29 @@ using namespace std;
 
 main() {
     setlocale (LC_ALL, "Portuguese");
-    int vet[10], i, maior[2], menor[2]; // 10
+    int vet[80], i, maior[2], menor[2]; // 10
     // leitura
-    for (i = 0; i <= 9; i++) { // 10
+    for (i = 0; i <= 79; i++) { // 10
         cout<<"Insira o "<<i+1<<"º valor: ";
         cin>>vet[i];
-        //organização
-        if (i == 0) {
-            maior[1] = vet[i];
-            maior[2] = i;
-            menor[1] = vet[i];
-            menor[2] = i;
-        } else {
-            if (vet[i] > maior[1]) {
-                maior[1] = vet[i];
-                maior[2] = i;
-            }
-            if (vet[i] < menor[1]) {
-                menor[1] = vet[i];
-                menor[2] = i;
-            }
+        
+    }
+    // organização
+    maior[0] = vet[0];
+    maior[1] = 0;
+    menor[0] = vet[0];
+    menor[1] = 0;
+    for (i = 1; i <= 79; i++) { // 10
+        if (vet[i] > maior[0]) {
+            maior[0] = vet[i];
+            maior[1] = i;
+        }
+        if (vet[i] < menor[0]) {
+            menor[0] = vet[i];
+            menor[1] = i;
         }
     }
-    cout<<"Maior número: "<<maior[1]<<" (posição: "<<maior[2]+1<<")"<<endl;
-    cout<<"Menor número: "<<menor[1]<<" (posição: "<<menor[2]+1<<")"<<endl;
+    cout<<"Maior número: "<<maior[0]<<" (posição: "<<maior[1]+1<<")"<<endl;
+    cout<<"Menor número: "<<menor[0]<<" (posição: "<<menor[1]+1<<")"<<endl;
     system("Pause");
 }
