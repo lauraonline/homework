@@ -1,0 +1,9 @@
+[INÍCIO]
+    [inteiro]:AN,AC,I;
+    [imprimir]("Insira o ano de nascimento:");
+    [ler](AN);
+    [imprimir]("Insira o ano corrente:");
+    [ler](AC);
+    I <- AC - AN;
+    [imprimir]("No ano ",AC,", a pessoa terá ",I," anos");
+[FIM]

@@ -1,0 +1,6 @@
+[INÍCIO]
+    [caractere]:N;
+    [imprimir]("Digite seu nome:");
+    [ler](N);
+    [imprimir](N);
+[FIM]

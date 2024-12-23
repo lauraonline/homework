@@ -1,7 +1,0 @@
-[INÍCIO]
-    [inteiro]:A,B,R;
-    A <- 3
-    B <- 5
-    R <- 2 * A * 3 * B;
-    [imprimir](R);
-[FIM]

@@ -1,0 +1,11 @@
+[INÍCIO]
+    [inteiro]:N;
+    [imprimir]("Digite um número:");
+    [ler](N);
+    [Se](N mod 2 = 0);
+        [então]
+            [imprimir]("O número ",N,"é par");
+        [senão]
+            [imprimir]("O número ",N,"é ímpar");
+    [fim se];
+[FIM]

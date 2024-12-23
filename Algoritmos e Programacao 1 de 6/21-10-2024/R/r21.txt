@@ -1,0 +1,9 @@
+[INÍCIO]
+    [real]:V,T,D
+    [imprimir]("Digite o valor do produto:");
+    [ler](V);
+    [imprimir]("Digite o valor percentual do desconto:");
+    [ler](D);
+    T <- V * (D / 100);
+    [imprimir]("O valor total do produto é R$",T);
+[FIM]
